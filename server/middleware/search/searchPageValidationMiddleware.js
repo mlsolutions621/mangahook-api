@@ -1,4 +1,4 @@
-const urlLink = "https://ww6.mangakakalot.tv"
+const urlLink = "https://www.mangakakalot.gg"
 const httpReq = require("request-promise")
 const cheerio = require("cheerio")
 
