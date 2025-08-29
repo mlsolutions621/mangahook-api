@@ -1,7 +1,7 @@
 const httpReq = require("request-promise")
 const url = require('url')
 const cheerio = require("cheerio")
-const urlLink = "https://ww6.mangakakalot.tv"
+const urlLink = "https://www.mangakakalot.gg"
 
 const dataCollector = (req, res, next) => {
 
