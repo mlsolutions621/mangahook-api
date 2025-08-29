@@ -1,5 +1,5 @@
 const httpReq = require("request-promise")
-const url = "https://ww6.mangakakalot.tv"
+const url = "https://www.mangakakalot.gg"
 
 const mangaExist = (req, res, next) => {
 
