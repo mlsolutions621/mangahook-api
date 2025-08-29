@@ -6,7 +6,7 @@ const mangaController = (req, res) => {
     const target = $(".manga-info-top")
 
     const metaData = {
-        imageUrl: "https://ww6.mangakakalot.tv/" + target.find(".manga-info-pic img").attr("src"),
+        imageUrl: "https://www.mangakakalot.gg/" + target.find(".manga-info-pic img").attr("src"),
         name: target.find(".manga-info-text li:eq(0) h1").text(),
         author: target.find(".manga-info-text li:eq(1) a").text(),
         status: target.find(".manga-info-text li:eq(2)").text().split(":")[1].trim(),
